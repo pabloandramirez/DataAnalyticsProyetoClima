@@ -2,7 +2,7 @@
 
 _Proyecto nivel inicial de la extracción, transformación y carga de datos_
 
-## Comenzando 🚀
+## Pre-requisitos 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo 
 y pruebas_
