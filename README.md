@@ -11,7 +11,7 @@ y pruebas_
 git clone https://github.com/pabloandramirez/DataAnalyticsProyetoClima
 ```
 
-_Instalar las dependendencias del proyecto (ir a la carpeta de requirements)_
+_Instalar las dependendencias del proyecto_
 
 ```
 pip install -r requirements.txt
