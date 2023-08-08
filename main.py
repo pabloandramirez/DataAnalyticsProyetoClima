@@ -7,7 +7,7 @@ import os
 ciudadesList =  ["London", "New York", "Cordoba", "Taipei", "Buenos Aires", "Mexico City", "Dublin", "Tbilisi", "Bogota", "Tokio"]
 coorList =   ["lat=31&lon=64", "lat=40&lon=-73", "lat=-31&lon=-64", "lat=25&lon=64", "lat=-34&lon=-58", 
               "lat=19&lon=-99", "lat=53&lon=6", "lat=41&lon=44", "lat=4&lon=74", "lat=35&lon=139"]
-API_KEY = config.token
+API_KEY = config.API_TOKEN
 FECHA_ACTUAL = datetime.datetime.now().strftime("%Y%m%d")
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 
@@ -15,7 +15,7 @@ BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 def obtener_datos_climaticos_ciudades(ciudades):
     d = {'ids' : [], 'cities': [], 'weather' : [], 'temp_max': [], 'temp_min': []}
     for i in ciudades:
-        url = f"{BASE_URL}q={i}&appid={API_KEY}&units=metric"
+        url = f"{BASE_URL}q={i}&appid={API_TOKEN}&units=metric"
         response = requests.get(url)
         if response.status_code == 200:
             data = response.json()
