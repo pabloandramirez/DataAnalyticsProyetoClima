@@ -11,6 +11,18 @@ y pruebas_
 git clone https://github.com/pabloandramirez/DataAnalyticsProyetoClima
 ```
 
+_Activar el entorno virtual_
+
+```
+C:\Users\TuUsuario\TuCarpeta\DataAnalyticsProyectoClima>cd entorno_virtual_data
+```
+```
+C:\Users\TuUsuario\TuCarpeta\DataAnalyticsProyectoClima\entorno_virtual_data>cd Scripts 
+```
+```
+C:\Users\TuUsuario\TuCarpeta\DataAnalyticsProyectoClima\entorno_virtual_data\Scripts>activate 
+```
+
 _Instalar las dependendencias del proyecto_
 
 ```
