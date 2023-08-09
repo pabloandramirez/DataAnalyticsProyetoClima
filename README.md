@@ -47,6 +47,6 @@ API_TOKEN = "token_open_weather"
 * [Pandas]Libreria
 
 
-## Autores ✒️
+## Autor ✒️
 
 * **Pablo Ramirez** - *Student* - [pabloandramirez]
