@@ -38,10 +38,6 @@ https://openweathermap.org/api
 _Solicitar una API KEY y registrarlo entre las comillas en el archivo config.py_
 
 ```
-https://openweathermap.org/api
-```
-
-```
 API_TOKEN = "token_open_weather"
 ```
 
