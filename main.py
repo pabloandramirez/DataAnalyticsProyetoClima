@@ -15,7 +15,7 @@ BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 def obtener_datos_climaticos_ciudades(ciudades):
     d = {'ids' : [], 'cities': [], 'weather' : [], 'temp_max': [], 'temp_min': []}
     for i in ciudades:
-        url = f"{BASE_URL}q={i}&appid={API_TOKEN}&units=metric"
+        url = f"{BASE_URL}q={i}&appid={API_KEY}&units=metric"
         response = requests.get(url)
         if response.status_code == 200:
             data = response.json()
